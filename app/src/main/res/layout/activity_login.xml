@@ -11,14 +11,14 @@
         android:id="@+id/textViewLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login1" />
+        android:text="@string/login" />
 
     <EditText
         android:id="@+id/editTextLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:hint="@string/editText1"
+        android:hint="@string/loginHint"
         android:inputType="textEmailAddress" />
 
     <TextView
@@ -31,6 +31,5 @@
         android:id="@+id/editTextPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/editPass"
         android:inputType="textPassword" />
 </LinearLayout>

@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="2"
     tools:context="com.example.drakewin.androidlabs.ListItemsActivity">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_columnWeight="1"
+        android:text="@string/radioButton"/>
 
-</android.support.constraint.ConstraintLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_columnWeight="1"
+        android:text="@string/checkBox"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_columnWeight="1"
+        android:text="@string/switchText" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_columnWeight="1"
+        android:src="@android:drawable/ic_menu_camera"
+        android:text="@string/imagebutton"
+        android:contentDescription="TODO"/>
+</GridLayout>
