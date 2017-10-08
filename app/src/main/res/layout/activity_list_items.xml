@@ -8,6 +8,7 @@
     android:columnCount="2"
     tools:context="com.example.drakewin.androidlabs.ListItemsActivity">
     <RadioButton
+        android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill"
@@ -15,6 +16,7 @@
         android:text="@string/radioButton"/>
 
     <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill"
@@ -22,6 +24,7 @@
         android:text="@string/checkBox"/>
 
     <Switch
+        android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill"
@@ -29,6 +32,7 @@
         android:text="@string/switchText" />
 
     <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill"
